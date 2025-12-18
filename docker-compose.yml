@@ -1,10 +1,10 @@
 services:
   backend:
-    image: papasorn/347
+    build: ./backend
     ports:
       - "4000:4000"
 
   frontend:
-    image: papasorn/347
+    build: ./frontend
     ports:
       - "8080:80"
